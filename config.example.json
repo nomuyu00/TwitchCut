@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "workspace": "./workspace",
+  "profile": {
+    "twitch_login": "",
+    "twitch_url": "",
+    "youtube_channel_id": "",
+    "youtube_channel_url": "",
+    "youtube_channel_name": "",
+    "browser_profile": "",
+    "verified_related_links": []
+  },
+  "tools": {
+    "ffmpeg": "",
+    "ffprobe": "",
+    "twitchdownloader": ""
+  },
+  "render": {
+    "encoder": "auto",
+    "font": "",
+    "font_name": ""
+  },
+  "asr": {
+    "model": "Systran/faster-whisper-large-v3",
+    "revision": "edaa852ec7e145841d8ffdb056a99866b5f0a478",
+    "device": "cpu",
+    "compute_type": "int8"
+  }
+}

@@ -1,0 +1,60 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.kotlin
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# Recipient-specific files and downloaded media never belong in the share repo.
+twitchcut.local.json
+*.local.json
+.venv/
+.tools/
+.setup/
+.test-work/
+workspace/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!*.example
+credentials*.json
+client_secret*.json
+*token*.json
+cookies*
+*.mp4
+*.mkv
+*.wav
+*.mp3
+*.zip
+*.7z
+*.exe
+*.dll
+*.bin
+.idea/
+*.iml

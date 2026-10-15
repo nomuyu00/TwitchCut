@@ -1,0 +1,11 @@
+# Optional local speech recognition. Does not download a speech model at setup.
+# CPU int8 works without NVIDIA CUDA. GPU use requires separate CUDA/cuDNN setup.
+# Sources: https://pypi.org/project/faster-whisper/1.2.1/
+#          https://pypi.org/project/ctranslate2/4.6.0/
+-r requirements.txt
+faster-whisper==1.2.1
+ctranslate2==4.6.0
+# CTranslate2 4.6 still imports pkg_resources. Setuptools 82 removed it.
+# https://setuptools.pypa.io/en/stable/history.html#v82-0-0
+# https://pypi.org/project/setuptools/81.0.0/
+setuptools==81.0.0
